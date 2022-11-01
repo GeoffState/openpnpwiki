@@ -73,7 +73,7 @@ The **Enabled**, **Homed**, **Disabled** machine state actuation settings can be
 
 ### Actuator with Profiles
 
-The **Profile** actuator value type is typically used when you want to control multiple other actuators in concert. As an example consider a camera light that can control the Red, Green, Blue channel intensities separately. A set of predefined profiles can be used to control such a multi-channel actuator in a consisent way across the application e.g. in many Pipelines (see the [usage in computer vision i.e. the ImageCapture Pipeline stage](https://github.com/openpnp/openpnp/wiki/Setup-and-Calibration:-Camera-Lighting#use-in-the-imagecapture-stage)).  
+The **Profile** actuator value type is typically used when you want to control multiple other actuators in concert. As an example consider a camera light that can control the Red, Green, Blue channel intensities separately. A set of predefined profiles can be used to control such a multi-channel actuator in a consisent way across the application e.g. in many Pipelines (see the [usage in computer vision i.e. the ImageCapture Pipeline stage](https://github.com/openpnp/openpnp/wiki/Setup-and-Calibration_Camera-Lighting#use-in-the-imagecapture-stage)).  
 
 Once you have selected the **Profile** actuator value type, press **Apply**. A new "Profiles" Wizard tab will appear: 
 
